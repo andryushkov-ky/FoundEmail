@@ -1,5 +1,112 @@
 @import 'settings';
+@import 'foundation-emails';
 
 @import 'template/template';
 
-@import 'template/ico';
+.main_container{
+  max-width: 740px;
+  height: 100%;
+  margin: 10px auto 0px auto;
+}
+.in_container{
+  background: #fafafa;
+  border-radius: 2px;
+  box-shadow: 0 0 6px #c9d1de;
+  -webkit-box-shadow: 0 0 6px #c9d1de;
+  -moz-box-shadow: 0 0 6px #c9d1de;
+  -o-box-shadow: 0 0 6px #c9d1de;
+}
+.back_link{
+  display: block;
+  text-decoration: none;
+  margin-top: 80px;
+  text-align: center;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #3E3E3E;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.back_link .back_arrow_icon{
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.checkmark_text {
+  color: #333;
+  text-align:left;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  letter-spacing:.5px;
+  font-weight: 600;
+  line-height: 20px;
+}
+.checkmark_wrap {
+  margin-bottom: 8px;
+}
+.checkmark_img {
+  margin-right: 10px;
+  float: left;
+}
+html{
+  width: 100%;
+}
+body{
+  width: 100%;
+  margin:0;
+  padding:0;
+  -webkit-font-smoothing: antialiased;
+  mso-margin-top-alt:0px;
+  mso-margin-bottom-alt:0px;
+  mso-padding-alt: 0px 0px 0px 0px;
+  background: #eef1f2;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+p,h1,h2,h3,h4{
+  margin-top:0;
+  margin-bottom:0;
+  padding-top:0;
+  padding-bottom:0;
+}
+table{
+  font-size: 14px;
+  border: 0;
+}
+img{
+  border: none!important;
+}
+.center-c {
+  margin: 0 auto;
+  text-align: center;
+}
+.info-text {
+  border-collapse: collapse;
+  border: 0;
+  text-align: center;
+  color: #efefef;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  letter-spacing: 4px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media only screen and (max-width: 600px) {
+  .full_width_600 {width:100% !important;}
+  .price-i {
+    width: 85% !important;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .full_width_700 {
+    width:100% !important;
+  }
+  .txt_center {
+    text-align:center !important;
+
+    img {
+      margin: 0 auto;
+    }
+  }
+  .separator {
+    height: 40px !important;
+  }
+}
